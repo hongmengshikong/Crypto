@@ -32,3 +32,9 @@ add_executable(DES_APP
         DES/MainDES.cpp
         DES/Utils.cpp
 )
+
+add_executable(RSA_APP
+        RSA/RSA.cpp
+        RSA/MainRSA.cpp
+
+)

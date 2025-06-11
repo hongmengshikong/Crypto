@@ -39,8 +39,12 @@ add_executable(RSA_APP
 
 )
 
-add_executable(MD5_APP
-        MD5/MainMD5.cpp
-        MD5/md5.cpp
+add_executable(MD5_1_APP
+        MD5/1/MainMD5.cpp
+        MD5/1/md5.cpp
+)
 
+add_executable(MD5_2_APP
+        MD5/2/MainMD5.cpp
+        MD5/2/md5.cpp
 )

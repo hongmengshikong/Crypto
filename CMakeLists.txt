@@ -38,3 +38,9 @@ add_executable(RSA_APP
         RSA/MainRSA.cpp
 
 )
+
+add_executable(MD5_APP
+        MD5/MainMD5.cpp
+        MD5/md5.cpp
+
+)
